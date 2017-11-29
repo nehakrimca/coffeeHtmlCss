@@ -1,0 +1,124 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1 {
+    color: brown;
+}
+
+h2,
+h3 {
+    color: #793232;
+}
+
+ul {
+    list-style-image: url("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:30,height:30/https://www.filepicker.io/api/file/1g1gP3q5S2qXEvOG70Gf");
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: brown front-weight:bold;
+}
+
+a:hover {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline;
+    float: left;
+
+}
+
+nav a:link,
+nav a:visited {
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.photo-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.photo-right {
+    float: right;
+    margin-left: 20px;
+}
+
+aside {
+    width: 280px;
+    float: right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold; 
+    padding:20px;
+}
+
+#survey-img{
+    width: 300px;
+    position: relative;
+    right: 51px;
+    border-radius: 6px;
+}
+
+.paral {
+    float: right;
+    text-align: right;
+}
+
+header {
+    background-image: url("img/Coffee-Beans-Wallpaper.jpg");
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+header h1 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+footer {
+    margin: 40px 0;
+}
+
+footer nav a:link,
+footer nav a:visited {
+    color: gray;
+    text-decoration: none;
+    display: block width:160px;
+    text-align: center;
+    background-color: white;
+}
+
+td,
+th {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
